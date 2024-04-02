@@ -3,7 +3,7 @@ function converter() {
     const coversao = numInput.value * 5.05;
     const resultado = document.getElementById("resultado");
 
-    resultado.innerHTML = "O resultado da sua conversão é: " + coversao;
+    resultado.innerHTML = "O resultado da sua conversão é: " + coversao + "$";
 }
 
 const toggleBtn = document.getElementById("toggle");
